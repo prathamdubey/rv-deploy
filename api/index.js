@@ -14,7 +14,7 @@ const fs = require("fs");
 const salt = bcrypt.genSaltSync(10);
 const secret = "afksfnask1241esd";
 
-app.use(cors({ credentials: true, origin: "https://www.rvinstitute.co.in/" }));
+app.use(cors({ credentials: true, origin: "rv-institute-z8v3-81t71q2th-saiyams-projects-68e9d66d.vercel.app" }));
 app.use(express.json());
 app.use(cookieParser());
 app.use("/uploads", express.static(__dirname + "/uploads"));
